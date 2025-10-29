@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL Falah Store - Fashion Accessories</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6b6b;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 15px 0;
+            color: #333;
+        }
+        .product p {
+            color: #666;
+        }
+        .btn {
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: linear-gradient(135deg, #ffa500, #ff6b6b);
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AL Falah Store</h1>
+        <p>Stylish Fashion Accessories: Slippers, Shoes & Makeup</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="home">
+        <div class="hero">
+            <h2>Welcome to AL Falah Store</h2>
+            <p>Discover trendy slippers, chic shoes, and glamorous makeup. Embrace modern style with us!</p>
+        </div>
+    </div>
+    <div class="container" id="products">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Stylish+Slippers" alt="Stylish Slippers">
+                <h3>Stylish Slippers</h3>
+                <p>Comfortable and fashionable slippers for everyday elegance. Available in vibrant colors.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Modern+Shoes" alt="Modern Shoes">
+                <h3>Modern Shoes</h3>
+                <p>Trendy shoes designed for the fashion-forward. Durable and stylish for any occasion.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Glam+Makeup" alt="Glam Makeup">
+                <h3>Glam Makeup</h3>
+                <p>Premium makeup products to enhance your beauty. Long-lasting and high-quality formulas.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Designer+Slippers" alt="Designer Slippers">
+                <h3>Designer Slippers</h3>
+                <p>Luxurious slippers with modern designs. Perfect blend of comfort and style.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Heeled+Shoes" alt="Heeled Shoes">
+                <h3>Heeled Shoes</h3>
+                <p>Elevate your look with our collection of heeled shoes. Chic and contemporary.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200?text=Makeup+Palette" alt="Makeup Palette">
+                <h3>Makeup Palette</h3>
+                <p>Versatile makeup palettes for creating stunning looks. Professional-grade colors.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p>AL Falah Store, owned by Salman Khan, is your premier destination for stylish and modern fashion accessories. We specialize in slippers, shoes, and makeup that blend comfort with cutting-edge trends. Our passion is to help you express your unique style.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Owner:</strong> Salman Khan</p>
+        <p><strong>Phone:</strong> 0313985871</p>
+        <p><strong>Email:</strong> info@alfalahstore.com</p>
+        <p><strong>Address:</strong> 123 Fashion Avenue, City, Country</p>
+    </div>
+    <footer>
+        <p>&copy; 2023 AL Falah Store. All rights reserved. | Embrace Style, Embrace You.</p>
+    </footer>
+</body>
+</html>
